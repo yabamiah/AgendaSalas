@@ -27,13 +27,14 @@ Aplicação que com API's Rest para o gerenciamento de reservas de salas de reun
 
 3. Criar um .env a partir do .env.example:
  - `mv env.example .env`
- - adicionar a URL de conexação do banco de dados: DATABASE_URL="postgresql://usuario:1234@localhost:5432/agenda_salas"
+ - adicionar a URL de conexação do banco de dados: `DATABASE_URL="postgresql://usuario:1234@localhost:5432/agenda_salas"`
 
 4. Executar a aplicação:
  - instale as dependências: `bund install`
  - execute: `bun index.ts`
 
 A API estará em execução em http://localhost:3000.
+
 E o swagger da aplicação está disponível em http://localhost:3000/api-docs
 
 ## Endpoints da API

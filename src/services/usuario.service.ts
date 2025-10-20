@@ -1,5 +1,5 @@
-import {UsuarioRepository} from "../repositories/usuario.repository.ts";
-import {type Usuario, type UsuarioDTO} from "../schemas/usuario.schema.ts";
+import { UsuarioRepository } from "../repositories/usuario.repository.ts";
+import { type Usuario, type UsuarioDTO } from "../schemas/usuario.schema.ts";
 
 export class UsuarioService {
     private repository: UsuarioRepository;

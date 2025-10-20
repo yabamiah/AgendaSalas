@@ -1,6 +1,6 @@
 import { type Request, type Response } from 'express'
 import { AgendamentoReservaService } from "../services/agendamentoReserva.service.ts";
-import {AgendamentoReservaDTOSchema} from "../schemas/agendamentoReserva.schema.ts";
+import { AgendamentoReservaDTOSchema } from "../schemas/agendamentoReserva.schema.ts";
 import * as z from 'zod';
 
 const agendamentoReservaService = new AgendamentoReservaService();

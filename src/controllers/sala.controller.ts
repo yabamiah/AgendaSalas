@@ -1,6 +1,6 @@
 import { type Request, type Response } from "express";
 import { SalaService } from "../services/sala.service.ts";
-import {SalaDTOSchema} from "../schemas/sala.schema.ts";
+import { SalaDTOSchema } from "../schemas/sala.schema.ts";
 import * as z from 'zod';
 
 const salaService = new SalaService();

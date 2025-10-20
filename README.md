@@ -34,6 +34,7 @@ Aplicação que com API's Rest para o gerenciamento de reservas de salas de reun
  - execute: `bun index.ts`
 
 A API estará em execução em http://localhost:3000.
+E o swagger da aplicação está disponível em http://localhost:3000/api-docs
 
 ## Endpoints da API
 
@@ -67,4 +68,4 @@ A API está estruturada em torno de três recursos principais.
 - PATCH /:id - Atualiza um agendamento. 
 - DELETE /:id - Deleta um agendamento.
 
-Foi dexado uma collection do postman de exemplos de requisições.
+Foi dexado uma collection do postman em [AgendaSalas Collection](Agenda%20Salas.postman_collection.json) que foi utilizado para testes.
